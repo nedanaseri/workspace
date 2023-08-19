@@ -8,13 +8,14 @@ div.container {
   background-position: center;
   background-repeat: 0 repeat;
   background-size: cover;
+  max-width: 78%;
 }
 .row.header {
   padding: 0 48px 0 48px;
   margin-bottom: 24px;
 }
 h1 {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 500;
   color: white;
   margin-bottom: 8px;
@@ -44,17 +45,15 @@ h2 {
 }
 .search-button {
   color: white !important;
-  border-color: white !important;
+  background-color: #2551ca;
 }
-a.nav-link {
-  margin-right: 36px;
-}
+
 .row.current-weather {
   align-items: center;
-  margin: 40px 0 100px 40px;
+  margin: 40px 0 60px 40px;
 }
 img.current-weather-image {
-  width: 200px;
+  width: 190px;
   padding: 0;
   margin: 0;
 }
@@ -63,15 +62,16 @@ img.current-weather-image {
   font-weight: 600;
   color: white;
 }
+
 h3 {
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 500;
   color: white;
   padding: 16px 0 0 0;
   margin-bottom: 2px;
 }
 h4 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   color: rgb(246, 251, 255);
 }
@@ -82,16 +82,14 @@ p.data {
 .row.weather-forcast {
   margin: 100px 0 0 0;
   padding: 40px 40px 24px 40px;
-  background-color: rgba(10, 20, 66, 0.374);
   max-width: 100%;
-  border-radius: 0 0 16px 16px;
 }
 .col.weekdays {
   text-align: center;
 }
 h5 {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 0;
   color: rgb(200, 234, 255);
 }
@@ -102,7 +100,7 @@ img.weekday-weather {
   padding: 0;
 }
 p.temperature {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin: 0;
   color: white;
