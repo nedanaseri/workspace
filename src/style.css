@@ -31,7 +31,6 @@ h2 {
   justify-content: right;
 }
 #current-location {
-  margin-bottom: 8px;
   font-weight: 500;
   font-size: 14px;
   background-color: #1fe0;
@@ -39,9 +38,16 @@ h2 {
   padding: 0;
   color: white;
 }
+#current-location:hover {
+  text-decoration: underline;
+}
 .input-group {
   margin-bottom: 12px;
   height: 44px;
+}
+input.form-control {
+  font-size: 14px;
+  color: #3a3d46;
 }
 .search-button {
   color: white !important;
