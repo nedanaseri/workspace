@@ -1,0 +1,114 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+div.container {
+  padding: 48px 0 0 0;
+  border-radius: 16px;
+  background-image: url("../images/istanbul3.png");
+  background-position: center;
+  background-repeat: 0 repeat;
+  background-size: cover;
+}
+.row.header {
+  padding: 0 48px 0 48px;
+  margin-bottom: 24px;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+#current {
+  display: grid;
+  justify-content: right;
+}
+#current-location {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #1fe0;
+  border: 0;
+  padding: 0;
+  color: white;
+}
+.input-group {
+  margin-bottom: 12px;
+  height: 44px;
+}
+.search-button {
+  color: white !important;
+  border-color: white !important;
+}
+a.nav-link {
+  margin-right: 36px;
+}
+.row.current-weather {
+  align-items: center;
+  margin: 40px 0 100px 40px;
+}
+img.current-weather-image {
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
+.weather {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+h3 {
+  font-size: 48px;
+  font-weight: 400;
+  color: white;
+  padding: 16px 0 0 0;
+  margin-bottom: 2px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(246, 251, 255);
+}
+p.data {
+  font-size: 14px;
+  color: white;
+}
+.row.weather-forcast {
+  margin: 100px 0 0 0;
+  padding: 40px 40px 24px 40px;
+  background-color: rgba(10, 20, 66, 0.374);
+  max-width: 100%;
+  border-radius: 0 0 16px 16px;
+}
+.col.weekdays {
+  text-align: center;
+}
+h5 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: rgb(200, 234, 255);
+}
+img.weekday-weather {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  padding: 0;
+}
+p.temperature {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  color: white;
+}
+p.weather-type {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(76, 207, 255);
+}

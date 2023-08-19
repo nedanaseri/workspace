@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    ]
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row header">
+        <div class="col-8">
+          <h1>Istanbul Weather</h1>
+          <h2 class="date-time">
+            Monday, 10 july 2023 | <strong>21:00</strong>
+          </h2>
+        </div>
+        <div class="col-4">
+          <div id="current">
+            <button id="current-location">View Current Location</button>
+          </div>
+
+          <div class="input-group" id="search-form">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Enter a city"
+              aria-label="Search"
+              aria-describedby="search-addon"
+              id="city-input"
+            />
+            <button
+              type="button"
+              class="btn btn-outline-primary search-button"
+              id="search-button"
+            >
+              search
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row current-weather">
+        <div class="col-2">
+          <img
+            src="icons/cloudy-night-2.svg"
+            class="current-weather-image"
+            id="w-icon"
+          />
+        </div>
+        <div class="col-4">
+          <h3>
+            <span id="temperature">25°C</span>
+          </h3>
+          <h4 id="weather-description">Clear with periodic clouds</h4>
+          <p class="data">
+            Feels like: <span id="precipitation">2</span>°C
+            <br />
+            Humidity: <span id="humidity">63</span>%
+            <br />
+            Wind: <span id="wind">24</span> km/h
+          </p>
+        </div>
+      </div>
+      <div class="row weather-forcast">
+        <div class="col weekdays">
+          <h5>Tuesday</h5>
+          <img src="icons/day.svg" class="weekday-weather" />
+          <p class="temperature">31°-22°</p>
+          <p class="weather-type">Sunny</p>
+        </div>
+        <div class="col weekdays">
+          <h5>Wednesday</h5>
+          <img src="icons/rainy-5.svg" class="weekday-weather" />
+          <p class="temperature">28°-21°</p>
+          <p class="weather-type">Rain Showers</p>
+        </div>
+        <div class="col weekdays">
+          <h5>Thursday</h5>
+          <img src="icons/cloudy.svg" class="weekday-weather" />
+          <p class="temperature">29°-23°</p>
+          <p class="weather-type">Partly Cloudy</p>
+        </div>
+        <div class="col weekdays">
+          <h5>Friday</h5>
+          <img src="icons/cloudy-day-3.svg" class="weekday-weather" />
+          <p class="temperature">30°-22°</p>
+          <p class="weather-type">Mostly Sunny</p>
+        </div>
+        <div class="col weekdays">
+          <h5>Saturday</h5>
+          <img src="icons/thunder.svg" class="weekday-weather" />
+          <p class="temperature">27°-21°</p>
+          <p class="weather-type">Thunderstorms</p>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
