@@ -116,3 +116,6 @@ p.weather-type {
   font-weight: 300;
   color: rgb(76, 207, 255);
 }
+.footer {
+  font-size: 12px;
+}
